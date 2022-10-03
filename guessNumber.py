@@ -1,5 +1,5 @@
 # Import Random Module that will be used for using the random function
-from random import Random, random
+from random import Random
 
 # Define number guesser method that accepts no parameters
 
@@ -11,7 +11,7 @@ def guessTheNum():
     answer = Random.randint(1, 30)
     # Asks the user to enter a number and initilize a variable that is equal to the user input
     while True:
-
+        user_guess = int(input("Take a guess: "))
         # If guess is too high, ask them to enter another guess
         # If guess is too low, ask them to enter another guess
         # If the user input and the random number are the same then print a statement saying they got it right
