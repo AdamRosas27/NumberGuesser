@@ -1,4 +1,5 @@
 # Import Random Module that will be used for using the random function
+from random import random as randy
 
 # Define number guesser method that accepts no parameters
 # Print out a welcome statement and lower and upper bounds of the guess
